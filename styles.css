@@ -1,0 +1,89 @@
+
+body{
+    background-color: #b1d1aa;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: x-large;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#biomeSelector{
+    margin: 10px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border: solid black 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    transition: background-position 0.75s, color 0.75s;
+    background-position: left;
+    background-size: 400%;
+    background-image: linear-gradient(45deg, #88B858, #496E2E, #4F3624, #362518);
+    background-color: #88B858;
+}
+#biomeSelector:hover{
+    background-position: right;
+    color: ivory;
+    background-color: #362518;
+}
+
+#biomeSelector.jade-cliffs{
+    background-image: linear-gradient(45deg,#937C70, #556732, #2F422A, #2D2521);
+    background-color: #556732;
+}
+#biomeSelector.jade-cliffs:hover{
+    background-position: right;
+    color: ivory;
+    background-color: #2D2521;
+}
+
+#biomeSelector.frozen-river{
+    background-image: linear-gradient(45deg, #B6CADE, #88BFE8, #6F979C, #3E4852);
+    background-color: #B6CADE;
+}
+#biomeSelector.frozen-river:hover{
+    background-position: right;
+    color: ivory;
+    background-color: #3E4852;
+}
+
+#biomeSelector.lavender-fields{
+    background-image: linear-gradient(45deg, #AAB759, #75508F, #663685, #482D49);
+    background-color: #AAB759;
+}
+#biomeSelector.lavender-fields:hover{
+    background-position: right;
+    color: ivory;
+    background-color: #482D49;
+}
+
+#biomeSelector.overgrown-cliffs{
+    background-image: linear-gradient(45deg, #B0A993, #43AC0F, #144D0C, #39272B);
+    background-color: #B0A993;
+}
+#biomeSelector.overgrown-cliffs:hover{
+    background-position: right;
+    color: ivory;
+    background-color: #39272B;
+}
+
+#biomeSelector.coniferous-forest{
+    background-image: linear-gradient(45deg, #E7E7E0, #709570, #416D41, #453223);
+    background-color: #E7E7E0;
+}
+#biomeSelector.coniferous-forest:hover{
+    background-position: right;
+    color: ivory;
+    background-color: #453223;
+}
